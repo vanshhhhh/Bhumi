@@ -92,20 +92,6 @@ hide_dataframe_row_index = """
             .blank {display:none}
             footer {visibility: hidden;}
             #MainMenu {visibility: hidden;}
-            .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: white;
-            color: black;
-            text-align: center;
-            z-index:1;
-            }
-            </style>
-            <div class="footer">
-            <p>Developed with ❤ by <a style='display: block; text-align: center;' href="https://vanshhhhh.github.io/" target="_blank">Vansh Sharma</a></p>
-            </div>
             </style>
             """
 st.markdown(hide_dataframe_row_index, unsafe_allow_html=True)
